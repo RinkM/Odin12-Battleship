@@ -95,3 +95,47 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.rowContainer{
+  display: flex;
+  flex-direction: row;
+  border: 1pt solid black;
+
+}
+
+.tile{
+  width: 2em;
+  height: 2em;
+  border: 1pt solid red
+}
+
+.tile:hover{
+  cursor: crosshair;
+  background-color: lightblue;
+}
+
+.possibleShip{
+  cursor: crosshair;
+  background-color: lightgreen;
+}
+
+.badPlacement{
+  cursor: not-allowed;
+  background-color: lightcoral;
+
+}
+
+#gridSpace {
+  border: black 1pt solid;
+}
